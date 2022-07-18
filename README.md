@@ -15,6 +15,10 @@ Data can be downloaded following the instruction in the manuscript's `Materials 
 
 
 ## Data availability
+For all datasets, the matrix file were converted into numpy sparse file format `.npz`.
+It was because the `.npz` format was the fastest to load into memory especially for the mouse embryo organogenesis dataset which was large in size.
+
+
 [Mouse embryo organogenesis data](https://oncoscape.v3.sttrcancer.org/atlas.gs.washington.edu.mouse.rna/landing)
 
 [Zhengmix8eq](https://bioconductor.org/packages/release/data/experiment/html/DuoClustering2018.html)
