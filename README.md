@@ -1,11 +1,26 @@
 # FastRNA reproducible repository
 Lee and Han (2022) currently under review at American Journal of Human Genetics
 
-## Contents
+# Contents
 
+## Code description
 The codes for running `R` code are in the `fastrna_r` folder.
 The codes for running `python` code are in the `fastrna_py` folder.
 Data can be downloaded following the instruction in the manuscript's `Materials and Methods`.
+
+`Figure 1` can be produced using `*-mouse-organogenesis.ipynb`.
+`Figure 2` can be produced using `*-zhengmix8eq.ipynb`.
+`Figure 3` can be produced using `*-pbmcssc.ipynb`.
+`Figure 4` can be produced using `*-mouse-organogenesis.ipynb` and `*-splatter-*.ipynb`.
+
+
+## Data availability
+[Mouse embryo organogenesis data](https://oncoscape.v3.sttrcancer.org/atlas.gs.washington.edu.mouse.rna/landing)
+
+[Zhengmix8eq](https://bioconductor.org/packages/release/data/experiment/html/DuoClustering2018.html)
+
+[PBMC SSC](https://singlecell.broadinstitute.org/single_cell/study/SCP424/single-cell-comparison-pbmc-data)
+
 
 
 
